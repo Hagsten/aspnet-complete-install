@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Complete installation of ASP.NEt vNext with all its dependencies
 
 echo "Begin"
