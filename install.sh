@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Complete installation of ASP.NEt vNext with all its dependencies
 
-echo "Begin"
 echo "Installing DNVM and its dependencies..."
 
 sudo apt-get install unzip curl
@@ -12,8 +11,6 @@ echo "DNVM installation complete"
 echo "Installing DNX and its dependencies..."
 
 sudo apt-get install libunwind8 gettext libssl-dev libcurl4-openssl-dev zlib1g libicu-dev uuid-dev
-
-read
 
 dnvm upgrade -r coreclr
 
