@@ -5,4 +5,6 @@ This bash script bundles all steps from http://docs.asp.net/en/latest/getting-st
 
 Run the following command to install .NET Core on you machine:
 
+```bash
 curl -sSL https://raw.githubusercontent.com/Hagsten/aspnet-complete-install/master/install.sh | sh
+```
